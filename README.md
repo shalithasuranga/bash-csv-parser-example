@@ -10,6 +10,17 @@ Parsing CSV files with Bash IFS
 
 ## Sample output
 
+CSV input:
+
+```
+Fruit,Price(USD)
+Orange,0.2
+Pineapple,0.5
+Mango,1.4
+```
+
+Output:
+
 ```
 Orange      : $0.20
 Pineapple   : $0.50
